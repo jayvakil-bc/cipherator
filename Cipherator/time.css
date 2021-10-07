@@ -1,0 +1,288 @@
+.main{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 35em;
+    padding-top: 0.5em;
+   
+    height: 135%;
+    width: 50%;
+    background-color: oldlace;
+    border-radius: 1.5em;
+}
+
+.encrypt-div{
+    position:absolute;
+    top:120%;
+    left:44%;
+    z-index: 3;
+    background-color: rgb(63, 56, 56);;
+    height: 160%;
+    width: 50%;
+    border-radius: 1.5em;
+    color:oldlace;
+}
+
+body{
+    background: rgb(12,82,219);
+background: linear-gradient(90deg, rgba(12,82,219,1) 18%, rgba(0,1,255,1) 52%, rgba(0,104,255,1) 80%, rgba(0,125,255,1) 100%);
+
+
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(files/UnicaOne-Regular.ttf);
+}
+
+.head{
+    padding-top:40%;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    margin-top: 1em;
+    font-family: myFirstFont,monospace;
+    text-align: center;
+    color: #3f3838;
+}
+.headingen{
+    padding-top:25%;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    margin-top: 1em;
+    font-family: myFirstFont,monospace;
+    text-align: center;
+    color: oldlace;
+}
+.input-text{
+    color: oldlace;
+    margin-left: 3.9em;
+    font-family : monospace;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.input-text1{
+    color: rgb(63, 56, 56);
+    margin-left: 3.9em;
+    font-family : monospace;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+.input-box{
+    margin-top: 3em;
+    background-color:#3f3838;
+    line-height : 1.2;
+    font-size:18px;
+    width:80%;
+    height: 8em;
+    margin-left: 4em;
+    resize: none;
+    color:oldlace;
+    
+    
+}
+
+
+textarea{
+    outline : none;
+    border: none;
+}
+
+hr{
+    width: 80%;
+    height: 0.3em;
+    background-color: rgb(27, 124, 252);
+    border: white;
+}
+
+.butalign{
+    position:absolute;
+    left:70%;
+    top:40%;
+
+    background: rgb(24, 22, 22);
+    font-family : myFirstFont, 'Times New Roman', serif;
+    letter-spacing: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    width:15em;
+    height:3em;
+    color:rgb(231, 227, 219);
+    
+    border-radius: 14px;
+    border : none;
+   
+}
+
+.butalign1:hover{
+    box-shadow: 0px 20px 20px rgba(255, 255, 255, 0.4);
+    transition: box-shadow , 0.4s ease-in-out;
+    
+    
+}
+.butalign:hover{
+    box-shadow: 0px 20px 20px rgba(255, 255, 255, 0.4);
+    transition: box-shadow , 0.4s ease-in-out;
+}
+.butalign1{
+    background: rgb(24, 22, 22);
+    color: rgb(216, 214, 211);
+    
+    position:absolute;
+    left:70%;
+    top:70%;
+    font-family : myFirstFont, 'Times New Roman', serif;
+    letter-spacing: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    height:3em;
+    width:15em;
+
+    border-radius: 14px;
+    border : none;
+}
+.butalign:active {
+    transform: scale(0.96);
+}
+.butalign1:active {
+    transform: scale(0.96);
+}
+.encrypt-button{
+
+    background: rgb(255, 255, 255);
+    color: rgb(20, 18, 15);
+    margin-top: 2em;
+    font-family : myFirstFont, 'Times New Roman', serif;
+    letter-spacing: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    height:4em;
+    width:14em;
+    border-radius: 15px;
+    border-color: rgb(47, 179, 255);
+
+}
+
+
+.encrypt-button:hover{
+    background-repeat: no-repeat;
+    background-size: 230px 120px;
+    
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.decrypt-div{
+    position:relative;
+    top:90%;
+    z-index: index 1;
+    margin-top: 18em;
+    margin-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 35em;
+    padding-top: 0.5em;
+    z-index: 0;
+    height: 170%;
+    width: 50%;
+    background-color: oldlace;
+    border-radius: 1.5em;
+}
+.headingen1{
+    padding-top:25%;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    margin-top: 1em;
+    
+    font-family: myFirstFont,monospace;
+    text-align: center;
+    color: #3f3838;
+}
+.input-box1{
+    margin-top: 3em;
+    background-color:oldlace;
+    line-height : 1.2;
+    font-size:18px;
+    width:80%;
+    height: 8em;
+    margin-left: 4em;
+    resize: none;
+    color:#3f3838;
+    
+}
+
+.encrypt-button1{
+
+    background: rgb(24, 22, 22);
+    color: rgb(216, 214, 211);
+    margin-top: 2em;
+    font-family : myFirstFont, 'Times New Roman', serif;
+    letter-spacing: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    height:4em;
+    width:14em;
+    border-radius: 15px;
+    border-color: rgb(47, 179, 255);
+
+    
+}
+
+.encrypt-button1:hover{
+    background-repeat: no-repeat;
+    background-size: 230px 120px;
+   
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.encrypt-button:active{
+    transform: scale3d(2);
+    transition: transform .10s ease-in;
+}
+
+.encrypt-button:active{
+    transform: scale3d(2);
+    transition: transform .10s ease-in;
+}
+
+.ans-div{
+    position:relative;
+    top:55%;
+    left:44%;
+    z-index: 3;
+    background-color: rgb(63, 56, 56);;
+    height: 120%;
+    width: 50%;
+    border-radius: 1.5em;
+    color:oldlace;
+    margin-bottom: 10%;
+}
+
+.ans-box{
+    margin-top: 3em;
+    background-color: #3f3838;
+    line-height : 1.2;
+    font-size:18px;
+    width:80%;
+    height: 8em;
+    margin-left: 3.9em;
+    resize: none;
+    color:cyan;
+}
+html {
+    scroll-behavior: smooth;
+    
+    user-select: none;
+   
+  }
+
+.headingen2{
+    padding-top:40%;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    margin-top: 1em;
+    font-family: myFirstFont,monospace;
+    text-align: center;
+    color: oldlace;
+}
+
